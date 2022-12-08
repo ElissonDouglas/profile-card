@@ -27,7 +27,7 @@ p {
 
 #container {
     background-color: white;
-    width: 85vw;
+    width: 350px;
     height: 320px;
     display: flex;
     flex-direction: column;
@@ -70,10 +70,12 @@ p {
     margin-top: 50px;
     font-size: 0.8em;
     text-align: center;
+    
 }
 
 #container #name h2 {
     display: inline-block;
+    margin-right: 5px;
     color: gray;
     margin-bottom: 10px;
 }
@@ -120,3 +122,9 @@ p {
     color: gray;
 }
 
+
+@media screen and (min-width: 680px) {
+    body {
+        background-position: right 71vw bottom 44vh, left 63vw top 58vh;
+    }
+}
