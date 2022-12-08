@@ -6,7 +6,7 @@
 
 # 🖥 Desktop
 
-### In development
+![preview](/design/my-result-preview-desktop.png)
 
 ***
 
